@@ -95,6 +95,6 @@ void SymbolTable<T>::Remove(std::string name) {
 }
 
 template <typename T>
-SymbolTable<T> *SymbolTable::CreateChild() {
+SymbolTable<T> *SymbolTable<T>::CreateChild() {
     return new SymbolTable<T>(this);
 }
