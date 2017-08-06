@@ -25,5 +25,14 @@ int main() {
   
   // Find OR create a symbol.
   Symbol<float>* symbol = floats.ResolveOrCreate("one");
+  
+  symbol->get_name(); // "one"
+  symbol->get_value(); // 1.0
+  symbol->is_constant(); // false
+  
+  // Mark a symbol as constant to prevent overwrites.
+  symbol->MarkAsConstant();
+  
+  symbol->set_value(3.0); // Throws a SymbolTableException
 }
 ```
