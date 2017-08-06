@@ -28,6 +28,12 @@ public:
     Symbol<T>* Add(std::string name, T value);
 
     /**
+     * Creates a new symbol table that is a child of this one, with its own scope.
+     * @return
+     */
+    SymbolTable<T>* CreateChild();
+
+    /**
      * Assigns a value to an existing symbol, or creates a new one.
      * @param name
      * @param value

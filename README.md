@@ -34,5 +34,11 @@ int main() {
   symbol->MarkAsConstant();
   
   symbol->set_value(3.0); // Throws a SymbolTableException
+  
+  // Create a child scope.
+  SymbolTable<T>* child = floats->CreateChild();
+  
+  // Children can have local values of symbols that *shadow* those of parents.
+  child->add("one", 3.0);
 }
 ```

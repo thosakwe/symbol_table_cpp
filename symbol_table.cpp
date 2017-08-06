@@ -93,3 +93,8 @@ void SymbolTable<T>::Remove(std::string name) {
     }
 
 }
+
+template <typename T>
+SymbolTable<T> *SymbolTable::CreateChild() {
+    return new SymbolTable<T>(this);
+}
