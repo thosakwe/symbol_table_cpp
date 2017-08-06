@@ -11,12 +11,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="916dbc1f-bef5-4a39-934a-aaf16bc5e9f2" name="Default" comment="Build fix">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test.cpp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="916dbc1f-bef5-4a39-934a-aaf16bc5e9f2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/symbol_table_cpp.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/symbol_table_cpp.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -450,7 +446,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501985050484</updated>
-      <workItem from="1501985063871" duration="3533000" />
+      <workItem from="1501985063871" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="Improved README">
       <created>1501988336815</created>
@@ -480,11 +476,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501988624077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Build fix">
+      <created>1501988690137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1501988690137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3533000" />
+    <option name="totallyTimeSpent" value="3576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="64" width="1454" height="885" extended-state="0" />
@@ -523,7 +526,8 @@
     <MESSAGE value="Added CreateChild" />
     <MESSAGE value="README typo" />
     <MESSAGE value="Link failure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link failure" />
+    <MESSAGE value="Build fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Build fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
